@@ -71,7 +71,7 @@ function App() {
                 makeMove={makeMove}
             />
 
-            {winner && !isDraw ? '<h3>Congratulations! Winner is {winner} </h3>' : ''}
+            {winner && !isDraw ? <h3>Congratulations! Winner is {winner} </h3> : ''}
 
             <h3>{isDraw && "It's a Draw!"}</h3>  {/*если ничья */}
 
